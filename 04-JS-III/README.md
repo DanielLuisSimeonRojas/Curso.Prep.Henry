@@ -97,6 +97,7 @@ const nombresEstudiantes = ['Martin', 'Antonio', 'Sara', 'Samuel'];
 nombresEstudiantes.pop();
 
 console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara']
+console.log(nombresEstudiantes.pop()); // Samuel
 ```
 
 ### `.unshift` y `.shift`
@@ -112,7 +113,7 @@ console.log(nombresEstudiantes);  // ['Leo', 'Martin', 'Antonio', 'Sara', 'Samue
 
 nombresEstudiantes.shift();
 
-console.log(nombresEstudiantes);  // ['Martin', 'Antonio', 'Sara', 'Samuel']
+console.log(nombresEstudiantes);  // [ 'Antonio', 'Sara', 'Samuel']
 ```
 
 ### Notas sobre las matrices

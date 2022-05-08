@@ -117,7 +117,7 @@ function fizzBuzz(numero) {
   } else if (numero % 5 === 0){
       return "buzz";
   } else if (numero % 3 === 0 || numero % 5 === 0);
-      return numero; 
+      return numero;
   
 }
 
@@ -219,7 +219,9 @@ function tablaDelSeis(){
         arrayTablaDel6.push(6 * i);
   }
   return arrayTablaDel6;
+
 }
+  
   /*for (i=0; i<=10; i++){
     console.log(i*6);
   } */ 
